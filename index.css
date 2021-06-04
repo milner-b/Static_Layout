@@ -1,0 +1,18 @@
+.header {
+    margin: 20px 0px 0px;
+
+}
+
+
+
+.background-container {
+    left: auto;
+    min-height: auto;
+    margin-top: -80px;
+    border: 0px none transparent;
+    border-radius: 0px;
+    background-color: #331a5c;
+    background-image: img(./staticLayoutPhotos/gradient-violet-bg.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
