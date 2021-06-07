@@ -5,23 +5,158 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brads Static Layout</title>
+    <title>Kast is Watch Parties Made Easy</title>
+    <link rel="icon" href="staticLayoutPhotos/Asset 3.png">
     <link rel="stylesheet" href="index.css">
+    <!-- I added the Kastapp.com Title and Favicon here-->
 </head>
 
 <body>
-    <div class="background-container"><img src="staticLayoutPhotos/gradient-violet-bg.jpg" alt="Background">
-        <div id="header"><img src="staticLayoutPhotos/kast-logo-horizontal-color-white.svg" alt="Kast Logo">
+
+    <header>
+        <!-- This was built on a 2560 × 1600 normal size monitor.
+
+I have implemented some flex into this, but not everything flexes correctly. 
+I have learned A LOT about the CSS Grid Layout Module
+Unfortunatlly I started using it more around lines 130-ish. To be completly honest I would rebuild this 
+site given enough time. My time management skills have been painfuly developing over the last few weeks. -->
+
+
+        <!-- This is where I built the nav bar at the top. I tried implementing "Sticky" into is in CSS but I couldn't get it to scrole-->
+        <!-- At one point I was really excited "Sticky" was working but I was on the actual Kast site :/ -->
+        <!-- Nothing in the Kast site takes you to anoth place on the main page so I made the buttons open the Kastapp site in a new tab.  -->
+
+        <!-- Choose from one of the provided websites.
+
+Use HTML5 & CSS to recreate the layout for the page as closely as possible   !!!  Kastapp.com
+
+Any buttons on the page must open to a blank tab.  !!! All buttons open to the Kastapp.com _blank new tab
+
+Any links referring another section on the page must go to that section.  !!!  No links to different section on this front page
+
+The finished project must be deployed  to Github Pages    !!! working on it !
+
+The site must utilize animation if it is present on the page   !!! No animation on this page. 
+
+The site must utilize CSS Grid or Flexbox on at least one (1) section   !!!!  @ line 130-ish
+
+It does not need to be entirely responsive    !!! I really wanted it to resize perfectly but some of it does not. 
+            I needed more time to spend on the CSS grid and some of my div's could be much cleaner.
+
+The student does not have to recreate more than 2 times the view-height of the screen    !!!   I think I did three times but I"m happy I did. -->
+
+        <!-- I left in most of my mistakes and commented them out  -->
+        
+        <img class="logo" src="staticLayoutPhotos/kast-logo-horizontal-color-white.svg">
+
+
+        <nav>
+            <ul class="nav_links">
+                <li><a href="https://www.kastapp.co/index.html" target="_blank">Adout</a></li>
+                <li><a href="https://www.kastapp.co/index.html" target="_blank">Help</a></li>
+                <li><a href="https://www.kastapp.co/index.html" target="_blank">Community</a></li>
+                <li><a href="https://www.kastapp.co/index.html" target="_blank">Premium</a></li>
+
+            </ul>
+
+        </nav>
+        <a class="" href="https://www.kastapp.co/index.html" target="_blank"><button>OPEN KAST</button></a>
+    </header>
+    <div>
+        <div>
+
+            <img class="main_image" src="staticLayoutPhotos/laptop-large-p-1080.png">
+
+            <div class="big_text">
+                <p>Watch parties made easy.</p>
+
+                <div class="smaller_text">
+                    <p> Watch whatever you want with friends online: movies, TV shows, you name it. Share your screen
+                        and
+                        camera or launch content directly from Kast TV in your watch parties. Join millions of kasters
+                        today!</p>
+
+
+                </div>
+            </div>
+            <div>
+                <a class="secondButton" href="https://www.kastapp.co/index.html" target="_blank">
+                    <p>OPEN KAST</p>
+                </a>
+            </div>
 
 
 
+            <div class="flex-container0">
+                <div>
+                    <p>Featured in</p>
+                </div>
+
+
+            </div>
+
+            <div class="flex-container1">
+
+                <div><img src="staticLayoutPhotos/wired-logo.svg" alt="wired"></div>
+                <div><img src="staticLayoutPhotos/nerdist-logo.svg" alt="nerd"></div>
+                <div><img src="staticLayoutPhotos/yahoo-finance-logo.svg" alt="yahoo"></div>
+            </div>
+
+
+            <div class="flex-container2">
+                <div><img src="staticLayoutPhotos/evening-standard-logo.svg" alt="wired"></div>
+                <div><img src="staticLayoutPhotos/clapper.svg" alt="nerd"></div>
+                <div><img src="staticLayoutPhotos/daily-mail-logo.svg" alt="yahoo"></div>
+            </div>
+
+
+            <div class="flex-container3">
+                <div>
+                    <p>"Kast has probably never been more relevant — or necessary — than it is right now."</p>
+                </div>
 
 
 
+            </div>
 
+            <div class="wrapper">
+
+                <!-- This is where I leaned more about CSS Grid Layout Module, Flexbox and would have completly rebuilt the project if I had time. 
+                Aligning things became much easier after getting more into this. TIME MANAGENT IS NO JOKE !!!!
+                
+                
+                
+                -->
+                <div class="grid-container">
+                    <div class="grid-item1"></div>
+                    <div class="grid-item2">What is Kast?</div>
+                    <div class="grid-item3">Looking for a place to watch movies, play, and hang out with
+                        friends? Hop
+                        onto Kast and start sharing experiences real-time!
+
+                        Up to 20 people can share their screen or camera and another 100 can watch
+                        in a party. And with
+                        Kast TV, you can now stream directly from the cloud.</div>
+                    <div class="grid-item3"></div>
+                    <!-- <div class="thirdButton" href="https://www.kastapp.co/index.html"target="_blank">OPEN KAST</div> -->
+                    <a class="thirdButton" href="https://www.kastapp.co/index.html" target="_blank">
+                        <p>OPEN KAST</p>
+                    </a>
+
+
+                </div>
+            </div>
         </div>
-    </div>
 
+        <!-- I must start on other assignmens at this time -->
+        <!-- Thank you for checking out my project that is a work in progress.  -->
+
+        <!-- <div>   
+        <div class="wrapper"></div>
+        <img src="staticLayoutPhotos/green-bg.jpg" alt="">
+
+    </div>
+    <div class="flex-container4"> -->
 
 
 
