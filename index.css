@@ -1,18 +1,218 @@
-.header {
-    margin: 20px 0px 0px;
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-image: url(./staticLayoutPhotos/gradient-violet-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+li,
+a,
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 30;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background: rgba(255, 255, 255, .0);
 
 }
 
 
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 2%;
+  background: rgba(255, 255, 255, .0);
 
-.background-container {
-    left: auto;
-    min-height: auto;
-    margin-top: -80px;
-    border: 0px none transparent;
-    border-radius: 0px;
-    background-color: #331a5c;
-    background-image: img(./staticLayoutPhotos/gradient-violet-bg.jpg);
-    background-position: 50% 50%;
-    background-size: cover;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  height: 20%;
+  width: 20%;
+  background: rgba(255, 255, 255, .0);
+
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 35px;
+  background: rgba(255, 255, 255, .0);
+}
+
+/* .nav_links li a:hover {} */
+
+button {
+  padding: 9px 20px;
+  font-weight: 200;
+  border: solid 1px white;
+  cursor: pointer;
+}
+
+.main_image {
+  max-width: 52%;
+  position: absolute;
+  top: 20%;
+  left: 22%;
+  object-fit: scale-down;
+  background: rgba(255, 255, 255, .0);
+}
+
+.big_text {
+  font-family: "Roboto", sans-serif;
+  background: rgba(255, 255, 255, .0);
+  font-size: 20px;
+  color: white;
+  position: relative;
+  top: 500px;
+  left: 40%;
+
+}
+
+.smaller_text {
+  font-family: "Roboto", sans-serif;
+  text-align: wrap;
+  max-width: 500px;
+  font-size: 20;
+  color: white;
+  position: relative;
+  top: auto;
+  left: -8%;
+  background: rgba(255, 255, 255, .0);
+}
+
+.secondButton {
+  padding: 0px 80px;
+  font-weight: 500;
+  background: rgba(255, 119, 0, 1);
+  position: absolute;
+  top: 800px;
+  left: 40%;
+}
+
+
+.flex-container0 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  position: relative;
+  top: 900px;
+  left: 45%;
+
+}
+
+
+.flex-container1 {
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  top: 900px;
+  left: 20%;
+}
+
+.flex-container1>div {
+  margin: 50px;
+  background: rgba(255, 255, 255, .0);
+}
+
+
+.flex-container2 {
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  top: 900px;
+  left: 20%;
+}
+
+.flex-container2>div {
+  margin: 50px;
+  background: rgba(255, 255, 255, .0);
+}
+
+
+.flex-container3 {
+  font-size: 20px;
+  font-style: italic; 
+  position: relative;
+  top: 900px;
+  left: 25%;
+
+}
+
+/* .division {
+  margin: 500px;
+  top: 100px;
+  background-color: white;
+} */
+
+
+/* .wrapper {
+
+background-size: 100%; 
+ */
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto;
+  background-color: 0;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  
+  
+}
+.grid-item1 {
+  background-image: url(./staticLayoutPhotos/green-bg.jpg);
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 800px;
+  font-size: 40px;
+  /* text-align: center; */
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1800px;
+  
+}
+
+.grid-item2 {
+  /* background-image: url(./staticLayoutPhotos/green-bg.jpg); */
+  /* border: 0px solid rgba(0, 0, 0, 0.8); */
+  /* padding: 600px; */
+  font-size: 50px;
+  /* text-align: center; */
+  max-width: 500px;
+  /* background-repeat: no-repeat; */
+  
+  position:absolute;
+  top: 1900px;
+  left: 40%;
+  
+}
+
+.grid-item3 {
+  /* background-image: url(./staticLayoutPhotos/green-bg.jpg); */
+  /* border: 0px solid rgba(0, 0, 0, 0.8); */
+  /* padding: 600px; */
+  font-size: 25px;
+  /* text-align: center; */
+  max-width: 500px;
+  /* background-repeat: no-repeat; */
+  
+  position:absolute;
+  top: 2000px;
+  left: 33%;
+  
+}
+
+.thirdButton {
+  padding: 0px 80px;
+  font-weight: 500;
+  background: rgba(255, 119, 0, 1);
+  position: absolute;
+  top: 2300px;
+  left: 40%;
 }
