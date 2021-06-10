@@ -127,7 +127,7 @@ button {
   flex-wrap: nowrap;
   position: relative;
   top: 900px;
-  /* left: 20%; */
+  left: 20%;
   text-align: center;
 }
 
